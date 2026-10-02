@@ -4,6 +4,8 @@ A local-first browser file transfer app. Pair two browsers using a six-digit cod
 
 File contents, file names, checksums and progress travel over a reliable WebRTC DataChannel. The Node server handles pairing and SDP/ICE signalling, serves the interface, and generates pairing QR images. Files are never uploaded to this server. An explicitly configured TURN server may relay encrypted WebRTC traffic when direct connectivity fails.
 
+<img width="301" height="357" alt="image" src="https://github.com/user-attachments/assets/cdb1c371-221d-4a1c-9f05-2e0817c98406" />
+
 ## Run
 
 Requires Node.js **20.19 or newer**.
