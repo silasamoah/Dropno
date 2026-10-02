@@ -1,0 +1,21 @@
+{
+  "name": "dropno",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-first peer-to-peer browser file transfer",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "node --test",
+    "test:browser": "node scripts/check-browser.cjs",
+    "vendor:hashes": "node scripts/vendor-hashes.cjs"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "dependencies": {
+    "@noble/hashes": "^2.4.0",
+    "qrcode-generator": "^2.0.4",
+    "ws": "^8.18.3"
+  }
+}
